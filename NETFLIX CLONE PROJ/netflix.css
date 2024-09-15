@@ -1,0 +1,688 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+   background-image: url("ntback.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-blend-mode: hard-light;
+   
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#header  {
+    width: 100%;
+    height: 60px;
+    background-color:transparent;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+
+#header:hover{
+    background-color: gray;
+    transition: 10s;
+}
+#btn1{
+   width: 110px;
+   height: 50px;
+   border: 1px solid black;
+   background-color: rgb(138, 19, 19);
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   font-size: large;
+   border-radius: 5px;
+}
+#btn1:hover{
+    box-shadow: 5px 5px 5px black;
+    
+}
+.btn2{
+    width: 110px;
+   height: 50px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 3px solid black;
+    color: rgb(255, 255, 255);
+   font-weight: bold;
+   font-size: large;
+   border-radius: 5px;
+  
+}
+.btn2:hover{
+    box-shadow: 3px 3px 3px black;
+    
+}
+#sltn{
+    width: 110px;
+   height: 30px;
+   border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    #header{
+        justify-content:center;
+    }
+    .btn2{
+        border:3px solid white ;
+    }
+    #btn1{
+        border:3px solid white ;
+    }
+  }
+
+  .heading{
+    color: white;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-size: 60px;
+  }
+ .t0{
+    margin-left: 10px;
+    font-size: 80px;
+ }
+
+ .t1{
+    margin-left: 80px;
+    font-size: 80px;
+ }
+
+ .t2{
+    margin-left: 230px;
+    font-size: 80px;
+ }
+
+ .p1,.p2{
+    color: white;
+    font-size: 20px;
+}
+.p1{
+    margin-top: 10px;
+   margin-left: 42%;
+}
+.p2{
+    margin-top: 20px;
+    margin-left: 32%;
+}
+@media only screen and (max-width:600px){
+    .t0,.t1,.t2{
+        font-size: 55px;
+        margin-left: 0px;
+    }
+    .heading{
+        margin-top: 15%;
+    }
+    .p1{
+        margin-left: 20%;
+    }
+    .p2{
+        margin-left: 20%;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+
+ }
+ .inpt{
+    margin-top: 20px;
+    margin-left: 29%;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+    
+ }
+ #sub-btn{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+    font-weight: bold;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .inpt{
+        width: 65%;
+        margin-top: 20px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+   
+  }
+  .content{
+    width: 100%;
+    height:900px;
+    flex-wrap: wrap;
+    background-image: url("grade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+  .TN{
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-left: 35px;
+   
+
+  }
+  .items{
+    
+    padding-left: 20px;
+    width: 90%;
+    height: 300px;
+    background-color:transparent;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+  }
+   .items::-webkit-scrollbar{
+    background-color: rgb(90, 90, 239);
+    } 
+    .num{
+    font-size: 90px;
+    /* text-shadow: -1px -1px 0 #f8f6f6, 1px -1px 0 #f5f3f3,
+                         -1px 1px 0 #f9f6f6, 1px 1px 0 #f4f2f2; */
+    -webkit-text-stroke: 2px rgb(225, 218, 218);
+    text-decoration: none;
+    }
+ 
+  .card1{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+   
+    background-image: url("kgf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card2{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+    
+    background-image: url("googly.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card3{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+    
+    background-image: url("holy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card4{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+    
+    background-image: url("kantara.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card5{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+    
+    background-image: url("devil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+  }
+  .card6{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+  
+    background-image: url("ugram.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card7{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+    background-image: url("master.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card8{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+  
+    background-image: url("monster.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card9{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+  
+    background-image: url("stree.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card10{
+    border-radius: 20px;
+    min-width: 200px;
+    height:250px ;
+  
+    background-image: url("priest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card1:hover{
+    transition: 1s ease-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card2:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card3:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card4:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card5:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card6:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card7:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card8:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card9:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+  .card10:hover{
+    transition: 1s ease-in-out;
+    transform: skewX(15deg);
+    width: 270px;
+    height: 330px;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);
+  }
+
+
+  .ft{
+    
+    width: 150px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    margin-left: 15%;
+    border-radius: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  }
+  @media only screen and (max-width:600px){
+   .items{
+    overflow-y:scroll;
+   }
+}
+
+  .MR{
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-left: 35px;
+  }
+  .more-data{
+    padding-top: 10px;
+    width: 90%;
+    height: 300px;
+    background-color: transparent;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+  }
+  .note-card1{
+    background-image: url("cardd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:320px ;
+    height: 300px;
+    color: rgb(201, 197, 197);
+    background-color: red;
+    border-radius: 30px;
+    align-content:flex-start;
+   
+  }
+  .note-card2{
+    background-image: url("cardd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:320px ;
+    height: 300px;
+    color: rgb(201, 197, 197);
+    background-color: red;
+    border-radius: 30px;
+    align-content:flex-start;
+  }
+  .note-card3{
+    background-image: url("cardd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:320px ;
+    height: 300px;
+    color: rgb(201, 197, 197);
+    background-color: red;
+    border-radius: 30px;
+    align-content:flex-start;
+  }
+  .note-card4{
+    background-image: url("cardd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:320px ;
+    height: 300px;
+    color: rgb(201, 197, 197);
+    background-color: red;
+    border-radius: 30px;
+    align-content:flex-start;
+  }
+  .note-card1:hover{
+    box-shadow: 10px 10px 10px rgb(103, 102, 102);
+  }
+  .note-card2:hover{
+    box-shadow: 10px 10px 10px rgb(103, 102, 102);
+  }
+  .note-card3:hover{
+    box-shadow: 10px 10px 10px rgb(103, 102, 102);
+  }
+  .note-card4:hover{
+    box-shadow: 10px 10px 10px rgb(103, 102, 102);
+  }
+
+  @media only screen and (max-width:600px){
+    .more-data{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+       
+    }
+
+  }
+  .ctxt{
+    padding: 30px 15px 5px ;
+
+  }
+  .ptxt{
+    padding: 15px 15px 5px 25px;
+    font-size: 20px;
+    color: rgb(196, 196, 187);
+  }
+  .last{
+    width: 100%;
+    height: 1100px;
+    background-color: black;
+  }
+
+  .qn-box{
+    margin-top: 20px;
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: transparent;
+    
+    
+   
+  }
+#qbox{
+    
+    width: 100%;
+    height:90px;
+    background-color: rgb(58, 57, 57);
+}
+#qbox1{
+    
+  width: 100%;
+  height:90px;
+  background-color: rgb(58, 57, 57);
+}
+#qbox2{
+    
+  width: 100%;
+  height:90px;
+  background-color: rgb(58, 57, 57);
+}
+#qbox3{
+    
+  width: 100%;
+  height:90px;
+  background-color: rgb(58, 57, 57);
+}
+#qbox4{
+    
+  width: 100%;
+  height:90px;
+  background-color: rgb(58, 57, 57);
+}
+#qbox:hover{
+    background-color: rgb(96, 94, 94);
+    cursor:grab;
+}
+#qbox1:hover{
+  background-color: rgb(96, 94, 94);
+  cursor:grab;
+}
+#qbox2:hover{
+  background-color: rgb(96, 94, 94);
+  cursor:grab;
+}
+#qbox3:hover{
+  background-color: rgb(96, 94, 94);
+  cursor:grab;
+}
+#qbox4:hover{
+  background-color: rgb(96, 94, 94);
+  cursor:grab;
+}
+
+@media only screen and (max-width:600px){
+   .last{
+    margin-top: 500px;
+   }
+ }
+
+
+ /* more-button */
+ #more{
+  margin-top: 1.5%;
+    margin-left: 90%;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(37, 180, 65);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+   
+ }
+ #sbox{
+  
+  width: 100%;
+  height:110px;
+  background-color: white;
+  display: none;
+
+ }
+ #sbox1{
+  
+  width: 100%;
+  height:110px;
+  background-color: white;
+  display: none;
+
+ }
+ #sbox2{
+  
+  width: 100%;
+  height:110px;
+  background-color: white;
+  display: none;
+
+ }
+ #sbox3{
+  
+  width: 100%;
+  height:110px;
+  background-color: white;
+  display: none;
+
+ }
+ #sbox4{
+  
+  width: 100%;
+  height:110px;
+  background-color: white;
+  display: none;
+
+ }
+#close0 , #close1 , #close2, #close3, #close4{
+  margin-top: 1.5%;
+  margin-left: 90%;
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+ 
+}
+#feed-cont{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width:500px;
+  height: 50px;
+  background-color:transparent;
+  margin-left: 35%;
+  gap: 20px;
+  border-radius: 10px;
+}
+.feed-inpt{
+  width: 300px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+
+}
+#sub-btn1{
+  width: 150px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+
+}
+#footer{
+  
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 35px;
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(black,rgb(3, 3, 74));
+  border-top: 1px solid rgb(30, 6, 6);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}

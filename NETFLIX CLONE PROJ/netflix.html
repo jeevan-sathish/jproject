@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: red;">  NETFLIX </title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="netflix.css">
+    
+</head>
+<body>
+    <div id="main" >
+        <div id="header">
+            <select name="lang" id="sltn">
+                <option value="kannada">Kannada</option>
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="tamil">Tamil</option>
+                
+              </select>
+            <button id="btn1" onclick="showAlert()">Home</button>
+            <button class="btn2">SignIn</button>
+        </div>
+        <h1 class="heading" ><span class="t0" >Unlimited movies,</span>  <br > <span class="t1" >TV shows and</span  >
+            <br> <span class="t2" >more</span> </h1>
+        <p class="p1">Starts at ₹149. Cancel anytime.</p>
+        <p class="p2">Ready to watch? Enter your email to create or restart your membership.</p>
+        
+        <input class="inpt" type="email" placeholder="Enter your email?" required>
+        <button id="sub-btn" onclick="submited()">submit</button>
+
+    </div>
+    <!-- content page  -->
+     <div class="content">
+        <h3 class="TN">Trending Now</h3>
+      
+       <div class="items">
+            <div class="card1">
+                <marquee behavior="" direction=""><h1 class="num">1</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card2">
+                <marquee behavior="" direction=""><h1 class="num">2</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card3">
+                <marquee behavior="" direction=""><h1 class="num">3</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card4">
+                <marquee behavior="" direction=""><h1 class="num">4</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card5">
+                <marquee behavior="" direction=""><h1 class="num">5</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card6">
+                <marquee behavior="" direction=""><h1 class="num">6</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card7">
+                <marquee behavior="" direction=""><h1 class="num">7</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card8">
+                <marquee behavior="" direction=""><h1 class="num">8</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card9">
+                <marquee behavior="" direction=""><h1 class="num">9</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            <div class="card10">
+                <marquee behavior="" direction=""><h1 class="num">10</h1></marquee>
+                <div class="ft">TRENDING NOW</div>
+            </div>
+            
+           
+        </div>
+        <!-- <hr> -->
+        <!-- information-page -->
+        <h3 class="MR">More reasons to join</h3>
+        <div class="more-data">
+            <div class="note-card1">
+                <h2 class="ctxt">Enjoy on your TV</h1>
+                    <p class="ptxt">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more</p>
+                    
+            </div>
+            <div class="note-card2">
+                <h2 class="ctxt">Download your shows to watch offline</h1>
+                    <p class="ptxt">Save your favourites easily and always have something to watch.</p>
+                    
+            </div>
+            <div class="note-card3">
+                <h2 class="ctxt">Watch everywhere</h1>
+                    <p class="ptxt">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+            </div>
+            <div class="note-card4">
+                <h2 class="ctxt">Create profiles for kids</h1>
+                    <p class="ptxt">Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+            </div>
+        </div>
+        <!-- last page  -->
+        <div class="last">
+            <h3 style="color:rgb(160, 158, 158);padding-top: 190px;margin-left: 35px; font-size: 30px;text-align: center;">Frequently Asked Questions</h3>
+            
+            <div class="qn-box">
+
+               <div id="qbox" >
+                <button id="more" onclick="showMore()">Ans</button>
+               </div>
+               <div id="sbox">
+                <button id="close0" onclick="closeClick0()">Close</button>
+               </div>
+               
+               <div id="qbox1">
+                <button id="more" onclick="showMore1()">Ans</button>
+               </div>
+               <div id="sbox1">
+                    <button id="close1" onclick="closeClick1()">Close</button>
+               </div>
+               <div id="qbox2">
+                <button id="more" onclick="showMore2()">Ans</button>
+               </div>
+               <div id="sbox2">
+                <button id="close2" onclick="closeClick2()">Close</button>
+               </div>
+               <div id="qbox3">
+                <button id="more" onclick="showMore3()">Ans</button>
+               </div>
+               <div id="sbox3">
+                <button id="close3" onclick="closeClick3()">Close</button>
+               </div>
+               <div id="qbox4">
+                <button id="more" onclick="showMore4()">Ans</button>
+               </div>
+               <div id="sbox4">
+                <button id="close4" onclick="closeClick4()">Close</button>
+               </div>
+            </div>
+            <p class="p2" style="color: rgb(89, 89, 232);padding-top: 100px;"> <u>How dis you feel? Enter your feedback on </u> <span style="color: red;text-decoration: none;"> NETFLIX </span> <u>to improve on UI/UX.</u> </p>
+             
+            <div id="feed-cont">
+                <input class="feed-inpt" type="text" placeholder="Enter your feedback?" required >
+            <button id="sub-btn1" onclick="submitedFeed()" >submit</button>
+
+            </div>
+            <p style="color: white;margin-left: 45%;margin-top: 10px;">Return to home page? <a href="netflix.html" style="font-size: 25px;color:green;"> Click Me</a></p>
+            
+            <div id="footer">
+                <h1 style="padding-left: 20px;-webkit-text-stroke: 2px rgb(205, 203, 203);padding-top: 25px;">Contact Me</h1>
+                <p style="padding-left: 20px;padding-top: 30px;">contact no : 7892652247</p>
+                <p style="padding-left: 20px;padding-top: 20px; color: rgb(145, 148, 151);">email : <a href="email" target="_blank" style="color:rgb(145, 148, 151) ;" >sathishjeevan2004@gmail.com</a> </p>
+            </div>
+
+        </div>
+
+
+       
+    
+    <script src="netflix.js"></script> 
+</body>
+</html>
+
